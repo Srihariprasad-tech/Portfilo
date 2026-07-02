@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sri hari prasad s — Software Developer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ================= NAV ================= -->
+<nav id="navbar">
+  <div class="nav-inner">
+    <a href="#home" class="logo"><span class="logo-bracket">&lt;</span>Somshubra<span class="logo-bracket">/&gt;</span></a>
+    <button id="navToggle" class="nav-toggle" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+    <ul id="navLinks" class="nav-links">
+      <li><a href="#home" class="tab" data-tab="home.js">home.js</a></li>
+      <li><a href="#about" class="tab" data-tab="about.md">about.md</a></li>
+      <li><a href="#education" class="tab" data-tab="education.json">education.json</a></li>
+      <li><a href="#skills" class="tab" data-tab="skills.py">skills.py</a></li>
+      <li><a href="#projects" class="tab" data-tab="projects.c">projects.c</a></li>
+      <li><a href="#certifications" class="tab" data-tab="certs.log">certs.log</a></li>
+      <li><a href="#contact" class="tab" data-tab="contact.sh">contact.sh</a></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- ================= HERO / TERMINAL ================= -->
+<header id="home" class="hero">
+  <div class="hero-glow"></div>
+  <div class="terminal">
+    <div class="terminal-bar">
+      <span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span>
+      <span class="terminal-title">somshubra@dev-machine: ~</span>
+    </div>
+    <div class="terminal-body">
+      <p><span class="prompt">$</span> whoami</p>
+      <p class="type-line" id="typeLine1"></p>
+      <p><span class="prompt">$</span> cat role.txt</p>
+      <p class="type-line" id="typeLine2"></p>
+      <p class="type line" id="typeLine3">$</span></p>ee:\IBM PY0101EN Certificate _ IBM SkillsBuild (2).pdf</span></p>
+    </div>
+  </div>
+
+  <div class="hero-cta">
+    <a href="#projects" class="btn btn-primary">View Projects</a>
+    <a href="#contact" class="btn btn-outline">Get In Touch</a>
+    <!-- 🔧 ADD YOUR RESUME LINK BELOW -->
+    <a href="#" class="btn btn-ghost" id="resumeBtn">Download Résumé ↓</a>
+  </div>
+
+  <a href="#about" class="scroll-hint" aria-label="Scroll down">
+    <span>scroll</span>
+    <div class="scroll-line"></div>
+  </a>
+</header>
+
+<main>
+
+<!-- ================= ABOUT ================= -->
+<section id="about" class="section">
+  <p class="file-tag">// about.md</p>
+  <h2 class="section-title">01 <span>About Me</span></h2>
+  <div class="about-grid">
+    <div class="about-photo">
+      <div class="photo-frame">
+        <!-- 🔧 REPLACE with your photo: <img src="your-photo.jpg" alt="Somshubra Roy"> -->
+     <div class="photo-placeholder">
+    <<img src="e:\photo_resume\WhatsApp Image 2026-07-01 at 12.47.50.jpeg" alt="Profile Photo" width="200">>
+</div>
+      </div>
+    </div>
+    <div class="about-text">
+      <p>
+        Hi, I'm <strong>Somshubra Roy</strong> — a software developer fresher who enjoys turning
+        ideas into working code. I'm comfortable across the stack, curious about how systems work
+        under the hood, and always looking for the next problem worth solving.
+      </p>
+      <p>
+        <!-- 🔧 REPLACE this paragraph with your own story: college, interests, what you're looking for -->
+        I began my programming journey with a curiosity about how software and technology work behind the scenes. As I explored different programming languages and problem-solving techniques, I developed a strong interest in building practical applications and learning new technologies. I am particularly passionate about software development, data structures, and continuously improving my coding skills through projects and challenges. I am looking for opportunities to work with a collaborative and growth-oriented team where I can contribute, learn from experienced professionals, and develop solutions that create real-world impact.
+      </p>
+      <div class="about-facts">
+        <div class="fact"><span class="fact-label">Location</span><span class="fact-value">Bengaluru India</span></div>
+        <div class="fact"><span class="fact-label">Role</span><span class="fact-value">Software Developer (Fresher)</span></div>
+        <div class="fact"><span class="fact-label">Status</span><span class="fact-value">Open to opportunities</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= EDUCATION ================= -->
+<section id="education" class="section alt-bg">
+  <p class="file-tag">// education.json</p>
+  <h2 class="section-title">02 <span>Education</span></h2>
+  <div class="timeline">
+    <!-- 🔧 Duplicate this block for each degree/school, most recent first -->
+    <div class="timeline-item">
+      <div class="timeline-dot"></div>
+      <div class="timeline-content">
+        <span class="timeline-date">2025-29</span>
+        <h3>[Degree Name, e.g. B.Tech in Computer Science]</h3>
+        <p class="timeline-org"><div>Reva University</div></p>
+        <p class="timeline-desc">7.55 in 1st sem / have 3 certification in data science</p>
+      </div>
+    </div>
+    <div class="timeline-item">
+      <div class="timeline-dot"></div>
+      <div class="timeline-content">
+        <span class="timeline-date">[Year — Year]</span>
+        <h3>[DAV PUBLIC School / Class XII]</h3>
+        <p class="timeline-org">[DAV]</div></p>
+        <p class="timeline-desc">[70.5 %/ CBSCE]</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= SKILLS ================= -->
+<section id="skills" class="section">
+  <p class="file-tag">// skills.py</p>
+  <h2 class="section-title">03 <span>Skills</span></h2>
+
+  <div class="skills-wrap">
+    <div class="skill-category">
+      <h3>Languages</h3>
+      <div class="skill-chips">
+        <span class="chip chip-py">Python</span>
+        <span class="chip chip-c">C</span>
+        <!-- 🔧 Add more languages you know, e.g. Java, C++, JavaScript -->
+        <span class="chip chip-placeholder">[C++]</span>
+      </div>
+    </div>
+
+    <div class="skill-category">
+      <h3>Web / Frameworks</h3>
+      <div class="skill-chips">
+        <!-- 🔧 Add frameworks/libraries: React, Node.js, Flask, Django, etc. -->
+        <span class="chip chip-placeholder"><[NODE.JS]></div></span>
+      </div>
+    </div>
+
+    <div class="skill-category">
+      <h3>Tools &amp; Platforms</h3>
+      <div class="skill-chips">
+        <!-- 🔧 Add tools: Git, VS Code, Linux, Docker, Postman, etc. -->
+        <span class="chip chip-placeholder">[Add tool]</span>
+        <span class="chip chip-placeholder">[Add tool]</span>
+      </div>
+    </div>
+
+    <div class="skill-category">
+      <h3>Databases</h3>
+      <div class="skill-chips">
+        <!-- 🔧 Add databases: MySQL, MongoDB, PostgreSQL, etc. -->
+        <span class="chip chip-placeholder">[Add database]</span>
+      </div>
+    </div>
+
+    <div class="skill-category">
+      <h3>Core CS Fundamentals</h3>
+      <div class="skill-bars">
+        <!-- 🔧 Adjust the style="width:%" to reflect your proficiency -->
+        <div class="skill-bar"><span>Data Structures &amp; Algorithms</span><div class="bar"><i style="width:80%"></i></div></div>
+        <div class="skill-bar"><span>Object-Oriented Programming</span><div class="bar"><i style="width:75%"></i></div></div>
+        <div class="skill-bar"><span>DBMS</span><div class="bar"><i style="width:70%"></i></div></div>
+        <div class="skill-bar"><span>Operating Systems</span><div class="bar"><i style="width:65%"></i></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= PROJECTS ================= -->
+<section id="projects" class="section alt-bg">
+  <p class="file-tag">// projects.c</p>
+  <h2 class="section-title">04 <span>Projects</span></h2>
+  <div class="project-grid">
+
+    <!-- 🔧 Duplicate this card for each project -->
+    <article class="project-card">
+      <div class="project-top">
+        <span class="project-icon">{ }</span>
+        <div class="project-links">
+          <a href="#" title="GitHub Repo">https://github.com/somshubhraroy55-a11y/2d-graphics-editor.git ↗</a>
+          <a href="#" title="Live Demo">Live ↗</a>
+        </div>
+      </div>
+      <h3><div>2-D graphic  Edittor></div></h3>
+      <p>can create 2d structures and help in to solve real world problem</p>
+      <div class="project-stack">
+        <span>React</span><span>canvas api</span>
+        </div>
+    </article>
+    </div>
+    </section>
+
+<!-- ================= CERTIFICATIONS ================= -->
+<section id="certifications" class="section">
+  <p class="file-tag">// certs.log</p>
+  <h2 class="section-title">05 <span>Certifications</span></h2>
+  <div class="cert-list">
+    <!-- 🔧 Duplicate this row for each certification -->
+    <div class="cert-item">
+      <span class="cert-check">✓</span>
+      <div>
+        <h4>Python Data Analysis</h4>
+        <p>IBM / College .2026/06<p>
+      </div>
+      <a href="#" class="cert-link">View ↗</a>
+  </div>
+</section>
+
+<!-- ================= CONTACT ================= -->
+<section id="contact" class="section alt-bg">
+  <p class="file-tag">// contact.sh</p>
+  <h2 class="section-title">06 <span>Contact</span></h2>
+
+  <div class="contact-grid">
+    <div class="contact-info">
+      <p>Have an opening for a fresher developer, or just want to connect? My inbox is open.</p>
+      <ul class="contact-links">
+        <!-- 🔧 Fill in your real details below -->
+        <li>✉️ <a href="mailto:your.email@example.com">your.email@example.com</a></li>
+        <li>💻 <a href="https://github.com/your-username" target="_blank" rel="noopener">github.com/your-username</a></li>
+        <li>💼 <a href="https://linkedin.com/in/your-username" target="_blank" rel="noopener">linkedin.com/in/your-username</a></li>
+        <li>📍 [Your City, Country]</li>
+      </ul>
+    </div>
+
+    <form id="contactForm" class="contact-form">
+      <div class="form-row">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Your name" required>
+      </div>
+      <div class="form-row">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="you@example.com" required>
+      </div>
+      <div class="form-row">
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="4" placeholder="Say hello..." required></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary full-width">Send Message</button>
+      <p id="formStatus" class="form-status"></p>
+    </form>
+  </div>
+</section>
+
+</main>
+
+<footer class="footer">
+  <p>&copy; <span id="year"></span> Somshubra Roy. Built with HTML, CSS &amp; JavaScript.</p>
+</footer>
+
+<div id="toTop" class="to-top" aria-label="Back to top">↑</div>
+
+<script src="script.js"></script>
+</body>
+</html>
